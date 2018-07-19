@@ -1,3 +1,4 @@
+/*=============== DESKTOP VIEW ======================= */
 /* Header */
 	#header {
 		display: -moz-flex;
@@ -143,7 +144,8 @@
             padding-top: 10px;
             float: left;
 		}
-		
+
+/*=============== MOBILE VIEW (IPHONE 6/7/8) ======================= */
 		@media screen and (max-width: 736px){
 			ul, menu, dir {
 				display: block;
@@ -176,10 +178,7 @@
 				width: 143%;
 				padding: 0em 0em 0em 0em;
 			}
-			body{
 
-			}
-			
 			#header {
 				display: block;
 				position: absolute;
@@ -221,14 +220,6 @@
 
 			}
 
-				#main p{
-					
-				}
-
-				#main one{
-
-				}
-
 				#main > section {
 					margin: 0em 0em 0em 0em;
 					padding: 0em 0em 0em 0em;
@@ -240,9 +231,7 @@
 					padding-top: 500px;
 				}
 
-		}
-
-		
+		}		
 
 		/*Change icons size here*/
 .social-icons .fa {
