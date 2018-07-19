@@ -6,7 +6,7 @@ import Hompage from "./Layout.js";
 export default () => (
     <HashRouter>
       <Switch>
-        <Route exact path="/" component={Hompage} />
+        <Route exact path="/leronjulian.github.io" component={Hompage} />
       </Switch>
     </HashRouter>
   );
