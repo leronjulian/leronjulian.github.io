@@ -1,13 +1,12 @@
 import React from "react";
-import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 import Hompage from "./Layout.js";
 
 export default () => (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
         <Route exact path="/" component={Hompage} />
-        
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
