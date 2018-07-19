@@ -1,6 +1,5 @@
 import React from "react";
 
-// <img src={github} alt="mini_picture" />
 class Publications extends React.Component{
     render() {
         return(
@@ -15,7 +14,6 @@ class Publications extends React.Component{
                     <p><a href="https://dl.acm.org/author_page.cfm?id=99659254016&coll=DL&dl=ACM&trk=0" target="_blank" rel="noopener noreferrer"> Leron Julian</a>, <a href="https://dl.acm.org/author_page.cfm?id=81375618273" target="_blank" rel="noopener noreferrer"> Kinnis Gosha </a>, <a href="https://dl.acm.org/author_page.cfm?id=99659277156&coll=DL&dl=ACM&trk=0" target="_blank" rel="noopener noreferrer"> Earl W. Huff Jr. </a></p>
                     <p>SIGMIS-CPR'18 Proceedings of the 2018 ACM SIGMIS Conference on Computers and People Research Pages 123-126, 2018 <a href="https://github.com/leronjulian/Send-SMS-Using-JS" target="_blank" rel="noopener noreferrer">[code]</a></p>
                 </ul>
-
             </div>
         )
     }
