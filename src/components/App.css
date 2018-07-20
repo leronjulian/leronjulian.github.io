@@ -92,50 +92,50 @@
 		   /*html, body {margin: 0; height: 100%; overflow: hidden}*/
 		   .huerotate { filter: hue-rotate(180deg); }
 		h1 { 
-	color: #111; 
-	font-family: 'Helvetica Neue', sans-serif; 
-	font-size: 40px; 
-	font-weight: bold; 
-	letter-spacing: -1px; 
-	line-height: 1; 
-	text-align: left;
+			color: #111; 
+			font-family: 'Helvetica Neue', sans-serif; 
+			font-size: 40px; 
+			font-weight: bold; 
+			letter-spacing: -1px; 
+			line-height: 1; 
+			text-align: left;
 		}
 
 		h1.FirstName { 
-	font-size: 40px; 
+			font-size: 40px; 
 		}
 
 		h2 { 
-	color: rgba(1, 121, 73, 0.959); 
-	font-family: 'Open Sans', sans-serif; 
-	font-size: 20px; 
-	font-weight: 300; 
-	line-height: 1; 
-	text-align: left; 
+			color: rgba(1, 121, 73, 0.959); 
+			font-family: 'Open Sans', sans-serif; 
+			font-size: 20px; 
+			font-weight: 300; 
+			line-height: 1; 
+			text-align: left; 
 		}
 
 
 		p { 
-	color: #685206; 
-	font-family: 'Helvetica Neue', sans-serif; 
-	font-size: 14px; 
-	line-height: 1; 
-	text-align: justify; 
-	text-justify: inter-word; 
+			color: #685206; 
+			font-family: 'Helvetica Neue', sans-serif; 
+			font-size: 14px; 
+			line-height: 1; 
+			text-align: justify; 
+			text-justify: inter-word; 
 		}
 
 		p.BodyInfo {
-	font-size: 20px;
-	padding: 1%;
-	line-height: 1.5;
+			font-size: 20px;
+			padding: 1%;
+			line-height: 1.5;
 		}
 
 		a:hover {
-	color: rgba(255, 166, 0, 0.856);
+			color: rgba(255, 166, 0, 0.856);
 		}
 
 		.para {
-	text-decoration-style: dotted;
+			text-decoration-style: dotted;
 		}
 
 
@@ -143,6 +143,12 @@
 			padding-right: 20px;
             padding-top: 10px;
             float: left;
+		}
+
+		.mobileOnly {
+			clear: both;
+			visibility: hidden;
+			margin: 0px;
 		}
 
 /*=============== MOBILE VIEW (IPHONE 6/7/8) ======================= */
@@ -157,6 +163,13 @@
 				-webkit-padding-start: 40px;
 				width: 143%;
 				padding: 0em 0em 0em 0em;
+			}
+
+			/* Top hr that hides on desktop view */
+			.mobileOnly {
+				visibility: visible;
+				margin-top: -20px;
+				margin-bottom: 30px;
 			}
 			
 			hr{

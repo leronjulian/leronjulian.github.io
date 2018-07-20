@@ -6,6 +6,7 @@ class BodyInfo extends React.Component{
         return(
             <div>
                 <p class="BodyInfo"> 
+                <hr class = "mobileOnly"/>
                     I am a senior Computer Science Major at Morehouse College. I have published research under the supervision of Dr.
                     Kinnis Gosha of the <a href="http://diversitycomplete.com/crcl2/" target="_blank" class="para" rel="noopener noreferrer">Culturally Relevant Computing Lab</a> at Morehouse College. This summer I am interning with NBCUniversal
                     at the CNBC Headquarters in Englewood Cliffs, NJ working with Node.js, React.js, GraphQL, MongoDB, Centos, and Docker!
