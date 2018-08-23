@@ -3,7 +3,7 @@ import React from "react";
 class Publications extends React.Component{
     render() {
         return(
-            <div> 
+            <div class="publications-margin"> 
                 <h1>Publications</h1>
                 <ul>
                     <li><h2><a href="https://dl.acm.org/citation.cfm?id=3190709" target="_blank" rel="noopener noreferrer"> Using SMS as an Interface For a Virtual Mentoring System</a></h2></li>
