@@ -9,6 +9,7 @@ import Headshot from "./Headshot";
 import './App.css';
 
 import Publication from "./Body/Publications"
+import Projects from "./Body/Projects";
 
 class Layout extends React.Component {
 
@@ -41,6 +42,10 @@ class Layout extends React.Component {
                     {/*Below the horizontal line*/}
                     <section>
                         <Publication />
+                    </section>
+
+                    <section>
+                        <Projects />
                     </section>
                 </div>
             </div>

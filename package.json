@@ -9,7 +9,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
     "@fortawesome/react-fontawesome": "0.1.0-11",
     "i": "^0.3.6",
-    "nodemon": "^1.18.3",
+    "nodemon": "^1.18.4",
     "react": "^16.4.2",
     "react-dom": "^16.4.1",
     "react-fontawesome": "^1.6.1",
